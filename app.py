@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from review_ai_agent.agent import agent
+from agent import agent
 import traceback
 
 app = FastAPI()
